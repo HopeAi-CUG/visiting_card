@@ -1,0 +1,14 @@
+flask
+python-dotenv
+langchain-openai
+langchain-core
+google-api-python-client
+google-auth
+google-auth-httplib2
+google-auth-oauthlib
+
+
+
+# conda create -n visitingcard python=3.10 -y
+# conda activate visitingcard
+# pip install -r requirements.txt
