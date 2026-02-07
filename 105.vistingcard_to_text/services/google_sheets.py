@@ -3,8 +3,8 @@ from datetime import datetime
 from google.oauth2.service_account import Credentials
 from googleapiclient.discovery import build
 
-SPREADSHEET_ID = "180PzOZLjUsxHGGHNGJwCJEU4UFcNU3CQR_pUGs9Hc48"
-SHEET_NAME = "Sheet1"
+SPREADSHEET_ID = "your sheet id"
+SHEET_NAME = "your sheet name"
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CREDENTIALS_PATH = os.path.join(BASE_DIR, "credentials.json")
@@ -40,3 +40,4 @@ def append_to_sheet(data: dict):
     ).execute()
 
     print("✅ Google Sheet Updated")
+
